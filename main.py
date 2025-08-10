@@ -17,7 +17,6 @@ from typing_extensions import List, TypedDict
 from dotenv import load_dotenv
 load_dotenv(override=True)
 
-
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 HF_TOKEN=os.getenv("HF_TOKEN")
 LANGSMITH_TRACING=os.getenv("LANGSMITH_API_KEY")
